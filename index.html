@@ -21,7 +21,7 @@
 
 
 
-  <nav class="flex items-center justify-between px-24 py-4">
+  <nav class="flex items-center justify-around  py-4">
     <h3 class="text-2xl font-bold">Mu<span class="text-orange-400">s</span>h</h3>
     <ul class="flex gap-6 items-center">
       <li><a href="#" class="text-gray-600 font-medium hover:text-primary">Portfolio</a></li>
@@ -44,13 +44,13 @@
         </div>
 
     </div>
-    <img src="images/Mush.png" alt="Profile Picture" class="rounded-full md:-mt-10 md:w-84 shadow-lg sm:w-72 w-64 sm: mt-8">
+    <img src="images/Mush.png" alt="Profile Picture" class="rounded-full md:-mt-10 md:w-84 shadow-lg sm:w-72 w-64 sm: mt-5">
   </div>
 </header>
 
   <main class="space-y-20 mt-15">
  
-    <section class="text-center px-6 bg-[#FFF8F3] py-10 mr-8 ml-8" >
+    <section class="text-center px-6 bg-[#FFF8F3] py-10 " >
       <h3 class="text-3xl font-bold text-gray-800">About Me</h3>
       <p class="text-gray-500 max-w-3xl mx-auto mt-3">I’m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user.</p>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
@@ -166,7 +166,25 @@
 
   </main>
 
-    <footer>
-       
-    </footer>
+  <footer class="mt-15 px-6 py-12 grid md:grid-cols-2 gap-8 bg-[#FFF8F3] ml-8 mr-8 mb-4">
+    <div class="text-center md:text-left">
+      <h3 class="text-2xl font-bold mb-3 text-center">Let's Connect</h3>
+      <p class="text-gray-600 mb-4 text-center ">Please fill out the form to connect with me, <br> or call between 9AM-8PM ET, Monday to Friday.</p>
+      <div class="flex space-x-4 items-center justify-center ">
+        <a href="facebook.com/musharofmusa75"><i class="fa-brands fa-facebook text-2xl text-primary"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram text-2xl text-primary"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter text-2xl text-primary"></i></a>
+      </div>
+    </div>
+
+    <div>
+      <h3 class="text-2xl font-bold mb-3">Message Me</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full p-3 border rounded">
+        <input type="email" placeholder="Your Email" class="w-full p-3 border rounded">
+        <textarea rows="4" placeholder="Write your message" class="w-full p-3 border rounded"></textarea>
+        <button type="submit" class="bg-orange-400 text-white rounded px-6 py-3 font-semibold ">Submit</button>
+      </form>
+    </div>
+  </footer>
 </html>
