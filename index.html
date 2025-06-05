@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Developer Portfolio</title>
+    <title>Musharof Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
     <ul class="flex gap-6 items-center">
       <li><a href="#" class="text-gray-600 font-medium hover:text-primary">Portfolio</a></li>
       <li><a href="#" class="text-gray-600 font-medium hover:text-primary">Blogs</a></li>
-      <li><button class="bg-orange-400 text-white rounded px-5 py-2 font-semibold">Hire Me</button></li>
+      <li><button class="bg-orange-400 text-white rounded px-5 py-2 font-semibold hover:bg-orange-500 transition">Hire Me</button></li>
     </ul>
   </nav>
 
@@ -39,8 +39,10 @@
       <p class="text-gray-500 max-w-xl">Shot what able cold new see hold. Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
 
         <div class="space-x-3 justify-between ">
-          <button class="bg-orange-400 text-white rounded px-6 py-3 font-semibold"><i class="fa-solid fa-download"></i> Download CV</button>
-          <button onclick="alert('Calling Musharof 📞')" class="bg-orange-400 text-white rounded px-6 py-3 font-semibold"><i class="fa-solid fa-phone"></i> Contact</button>
+        <button id="downloadCvBtn" href="assets/Musharof A Musa CV.pdf" class="bg-orange-400 hover:bg-orange-500 transition text-white rounded-xl px-6 py-3 font-semibold shadow-sm">
+       <i class="fa-solid fa-download"></i> Download CV
+      </button>
+          <button onclick="alert('Calling Musharof 📞')" class="bg-orange-400 hover:bg-orange-500 transition text-white rounded px-6 py-3 font-semibold"><i class="fa-solid fa-phone"></i> Contact</button>
         </div>
 
     </div>
@@ -161,7 +163,7 @@
           </div>
         </div>
       </div>
-      <button class="mt-12 bg-orange-400 text-white rounded px-6 py-3 font-semibold"><i class="fa-solid fa-download"></i> Download CV</button>
+      <button id="downloadCvBtn" href="assets/Musharof A Musa CV.pdf" class="mt-12 bg-orange-400 text-white rounded px-6 py-3 font-semibold hover:bg-orange-500 transition"><i class="fa-solid fa-download"></i> Download CV</button>
     </section>
 
   </main>
@@ -183,7 +185,7 @@
         <input type="text" placeholder="Your Name" class="w-full p-3 border rounded">
         <input type="email" placeholder="Your Email" class="w-full p-3 border rounded">
         <textarea rows="4" placeholder="Write your message" class="w-full p-3 border rounded"></textarea>
-        <button type="submit" class="bg-orange-400 text-white rounded px-6 py-3 font-semibold ">Submit</button>
+        <button type="submit" class="bg-orange-400 hover:bg-orange-500 transition text-white rounded px-6 py-3 font-semibold ">Submit</button>
       </form>
     </div>
   </footer>
